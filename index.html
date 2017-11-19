@@ -9,22 +9,39 @@
 
 <body>
     <style>
+        .oneColumn {
+            float: left;
+        }
+        
+        .twoColumn {
+            float: left;
+            border-left: thin solid;
+        }
+        
         p {
-            display: block;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            margin-left: 10px;
         }
         
         img {
+            padding-top: 10px;
             border-radius: 50%;
             padding-right: 10px;
+            overflow: hidden;
         }
     </style>
-    <img src="./mypic.jpeg" alt="" height="80px" align="left">
-    <p>
-        <strong>Cosmin Sofletea</strong>
-        <br> mobile: 646-872-3481
-        <br> email: csofletea97@gmail.com
-        <br> website: <a href="http://www.cosminsofletea.com">www.cosminsofletea.com</a>
-    </p>
+    <div class="oneColumn">
+        <img src="./mypic.jpeg" alt="" height="100px" align="left">
+    </div>
+    <div class="twoColumn">
+        <p>
+            <strong>Cosmin Sofletea</strong>
+            <br> mobile: 646-872-3481
+            <br> email: csofletea97@gmail.com
+            <br> website: <a href="http://www.cosminsofletea.com">www.cosminsofletea.com</a>
+        </p>
+    </div>
 </body>
 
 
